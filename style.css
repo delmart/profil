@@ -1,0 +1,125 @@
+body
+{
+	background-color: #EBEBEB;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+
+}
+
+#img-rounded{
+	border-radius: 50%;
+}
+
+h1, h2, h3{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+	color: #8693DE;
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+
+h2{
+	color: #3F3F3F;
+	font-size: 23px;
+}
+
+h3{
+	color: #7D7D7D;
+	font-size: 21px;
+	line-height: 50px;
+
+}
+
+a {
+	color: #A4A4A4;
+	text-decoration: none;
+}
+
+li {
+	color: #A4A4A4;
+}
+
+
+a:hover {
+	color: black;
+}
+
+table p {
+	text-align: justify;
+	font-weight: normal;
+}
+
+#movies img
+{
+	padding-right: 20px;
+}
+
+
+.card{
+	background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.icons{
+	font-size: 30px;
+}
+
+.list-inline {
+	padding-left: 0px;
+	list-style: none; 	
+}
+
+.list-inline li {
+	display: inline-block;
+	padding: 20px;
+	font-size: 18px;
+
+}
+
+.btn-purple {
+	color: white;
+	background-color: #8693DE;
+	padding: 10px 8px;
+	border-radius: 5px;
+}
+
+.btn-mini{
+	color: #8693DE;
+}
+
+
+#sidebar{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	width: 10%;
+	background:#384047;
+	text-align: center;
+
+}
+
+#page-container{
+	padding: 30px;
+	margin-left: 10%;
+}
+
+#sidebar ul{
+	padding: 30px;
+}
+
+#sidebar li{
+	list-style-type: none;
+	padding: 20px;
+	font-size: 25px;
+}
+
